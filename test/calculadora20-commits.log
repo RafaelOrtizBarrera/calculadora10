@@ -1,0 +1,41 @@
+commit 6a7038c9794fb6d70b1d345fcd4f009515ba7596
+Author: Rafael Ortiz <rortiz@previred.com>
+Date:   Fri Nov 6 23:55:42 2020 -0300
+
+    Se crea carpeta test con archivo test.log
+
+commit dfd1d0d866c0e3ec39c0ea6376cb1f81dc28b1a0
+Author: Rafael Ortiz <rortiz@previred.com>
+Date:   Fri Nov 6 23:53:40 2020 -0300
+
+    Se agrega menu de calculadora
+
+commit 7e31a9c2a710a61088565c4df48c1015069ebe69
+Author: Rafael Ortiz <rortiz@previred.com>
+Date:   Fri Nov 6 23:51:56 2020 -0300
+
+    Se agrega funcion multiplicar y sus test
+
+commit 1690afc040cdfb6509ca5644f7f152cd62245f34
+Author: Rafael Ortiz <rortiz@previred.com>
+Date:   Fri Nov 6 23:48:41 2020 -0300
+
+    Se agrega funcionalidad dividir y sus test
+
+commit 642ab2d21391fb1ca0279bcad6ab9d7e6270eee9
+Author: Rafael Ortiz <rortiz@previred.com>
+Date:   Fri Nov 6 23:47:11 2020 -0300
+
+    Se agrega funcionalidad de resta y sus test
+
+commit ad344a9cfc45302d578750cafe470ae5caff43b1
+Author: Rafael Ortiz <rortiz@previred.com>
+Date:   Fri Nov 6 23:36:09 2020 -0300
+
+    Se agrega funcionalidad suma mas test
+
+commit 009e6a405f0e3d6e34a311e17c5f8cad8b84d60b
+Author: Rafael Ortiz <rortiz@previred.com>
+Date:   Fri Nov 6 23:14:07 2020 -0300
+
+    Se inicializa repositorio
