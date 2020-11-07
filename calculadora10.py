@@ -87,3 +87,30 @@ def multiplicacionTest():
         print("test correcto 2*0=0")
     else:
         print("test incorrecto 2*0=0 resultado "+str(resultado))
+
+if __name__ == "__main__":
+
+    print("Menu")
+    print("1.- Suma")
+    print("2.- Resta")
+    print("3.- Division")
+    print("4.- Multiplicacion")
+
+
+    operacion = input("Ingrese Operacion ")
+    print("operacion ", operacion)
+    numA = input("Ingrese numero A ")
+    numB = input("Ingrese numero B ")
+
+    if(int(operacion) == 1):
+        resultado = suma(int(numA), int(numB))
+        print("A+B=", resultado)
+    elif(int(operacion) == 2):
+        resultado = resta(int(numA), int(numB))
+        print("A-B=", resultado)
+    elif(int(operacion) == 3):
+        resultado = division(int(numA), int(numB))
+        print("A/B=", resultado)
+    elif(int(operacion) == 4):
+        resultado = multiplicacion(int(numA), int(numB))
+        print("A*B=", resultado)
