@@ -41,3 +41,27 @@ def restaTest():
         print("test correcto -1-1=-2")
     else:
         print("test incorrecto -1-1=-2 resultado "+str(resultado))
+
+def division(a, b):
+    if(int(b) == 0):
+        return "Error"
+    return a / b
+
+def divisionTest():
+    resultado = division(2, 2)
+    if(int(resultado) == 1):
+        print("test correcto 2/2=1")
+    else:
+        print("test incorrecto 2/2=1 resultado "+str(resultado))
+
+    resultado = division(1, 0)
+    if(resultado == "Error"):
+        print("test correcto 1/0 Error")
+    else:
+        print("test incorrecto 1/0 resultado "+str(resultado))
+
+    resultado = division(8, 4)
+    if(int(resultado) == 2):
+        print("test correcto 8/4=2")
+    else:
+        print("test incorrecto 8/4=2 resultado "+str(resultado))
