@@ -62,7 +62,6 @@ def multiplicacionTest():
     if(int(resultado) == 0):
         print("test correcto 2*0=0")
     else:
-        print("test incorrecto 2*0=0 resultado "+str(resultado))
 
 if __name__ == "__main__":
 
